@@ -5,16 +5,19 @@ Requirements:
 
 
 **The script itself from where ever it is hosted**
-`<script async='async' src='gamAppAds.js'></script>`
+`<script async='async' src='https://script.ksfmedia.fi/app/gamAppAds.js'></script>`
 
-DIV tags in the HTML that correspond to the once known by the script:
+DIV tags in the HTML that correspond to the ones known by the script:
 The script is currently looking for div:s in the HTML, with an id among these:
-**MOBPARAD
-MOBBOX1
-MOBBOX2
-MOBBOX5**
+**MOBPARAD 300x300, 300x250, 300x100,  300x600
+MOBBOX1 300x300, 300x250, 300x100,  300x600
+MOBBOX2 300x300, 300x250, 300x100,  300x600
+MOBBOX5 300x300, 300x250, 300x100,  300x600
+DIGIHELMOB 300x431**
 These names are not final. The expected HTML is this:
 `<div id = "string"></div>`
+** Example **
+`<div id = "MOBPARAD"></div>`
 
 /Requirements
 

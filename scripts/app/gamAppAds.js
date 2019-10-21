@@ -81,7 +81,6 @@ var ksfDfp = {};
         // this array is used to block publication unless the display size is mobile
         ksfDfp.mobileOnlySlots = [
             ["MOBPARAD", [
-
                 [300, 100],
                 [300, 250],
                 [300, 300],
@@ -104,7 +103,10 @@ var ksfDfp = {};
                 [300, 250],
                 [300, 300],
                 [300, 600]
-            ]]
+            ]],
+			["DIGIHELMOB", 
+                [300, 431]
+            ]
         ];
 
         // Slots that are not interstitials but need a header with a close button should be listed here. These guys need an enveloping extra div to be closed correctly.
